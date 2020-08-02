@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Sun Aug  2 03:56:56 2020
-
-@author: triple-a
+#Python
+#title 		:Website_Blocker.py
+#description 	:This app is to block website for specific hours
+#author 	:JohnBedeir
+#website	:johnydesigns.com
+#date		:01Aug20
 """
 
 import time
