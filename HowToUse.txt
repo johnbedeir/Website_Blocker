@@ -1,0 +1,25 @@
+#App_Name: Website_Blocker
+#Author: John Bedeir
+#Website	:johnydesigns.com
+
+
+For adding websites to the block list:
+1. Open website_blocker.py
+2. in the line that contains
+"website_list=["facebook.com", "www.facebook.com"]"
+3. Add websites to the list by adding comma as it is shown and make sure you add two versions of the website as it is shown
+
+-----------------------------------------------
+
+For changing the hours:
+1. Open Website_blocker.py
+2. In line that contains
+"if dt(dt.now().year, dt.now().month, dt.now().day,8) < dt.now() < dt(dt.now().year, dt.now().month, dt.now().day,16):"
+3. Change 8 and 16 with the hours of your choice
+
+
+IMPORTANT:
+
+For Windows: Make sure you run the "website_blocker.exe" as administrator  
+
+For Linux: Make sure to run the "website_blocker.exe" using Sudo 
